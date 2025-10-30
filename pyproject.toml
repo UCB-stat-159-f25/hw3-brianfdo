@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools >= 70", "numpy >= 1.23"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligotools"
+authors = [
+  { name="Ligo Scientific Collaboration (LSC)", email="gwosc@igwn.org" },
+  { name="Brian Fernando", email="bmfernan@berkeley.edu" },
+]
+description = "A Python library for reading LIGO data files."
+# readme = "README.md"
+
+requires-python = ">=3.9"
+dependencies = [
+    "tqdm",
+    "numpy>=1.23",
+    "h5py>=3.7",
+    "matplotlib>=3.5",
+    "ipython>=8.2",
+    "ipykernel>=5.5",
+    "decorator>=5.1",
+    "scipy>=1.8"
+]
+
+license = "BSD-3-Clause"
+license-files = ["LICEN[CS]E*"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+keywords = ["tools", "ligo"]
+dynamic = ["version"]
+
+# [project.urls]
+# Homepage = "https://github.com/fperez/mytoy"
+# Issues = "https://github.com/fperez/mytoy/issues"
+
+[tool.setuptools]
+packages = ["ligotools"]
+
+[tool.setuptools.dynamic]
+version = {attr = "ligotools.__version__"}
