@@ -2,14 +2,14 @@
 version: 1
 project:
   id: 47f53f73-e80d-4a29-8d96-edb067a6333d
-  # title:
-  # description:
+  title: From Notebooks to Research Packages, Part 2
+  description: The LIGO project - Proving the the existence of gravitational waves
   # keywords: []
-  # authors: []
+  authors: [Brian Fernando]
   github: https://github.com/UCB-stat-159-f25/hw3-brianfdo
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    favicon: favicon.ico
+    logo: site_logo.png
