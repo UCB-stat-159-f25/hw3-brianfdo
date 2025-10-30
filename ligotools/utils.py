@@ -8,10 +8,6 @@ write_wavfile: function to keep the data within integer limits, and write to wav
 reqshift: function that shifts frequency of a band-passed signal
 """
 
-if __name__ == "__main__":
-    print("Testing utils.py for syntax errors...")
-    print("If you see this message, syntax is OK up to this point")
-    
 import numpy as np
 from scipy.io import wavfile
 import matplotlib.pyplot as plt
