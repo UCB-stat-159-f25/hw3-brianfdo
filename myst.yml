@@ -1,7 +1,6 @@
 version: 1
 project:
   id: 47f53f73-e80d-4a29-8d96-edb067a6333d
-  title: From Notebooks to Research Packages, Part 2
   description: The LIGO project - Proving the the existence of gravitational waves
   github: https://github.com/UCB-stat-159-f25/hw3-brianfdo
   binder: https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-brianfdo/main?labpath=LOSC_Event_tutorial.ipynb
