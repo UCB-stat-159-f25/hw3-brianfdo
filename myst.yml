@@ -1,13 +1,24 @@
 version: 1
+
 project:
   id: 47f53f73-e80d-4a29-8d96-edb067a6333d
+  title: LIGO Gravitational Wave Analysis
   description: The LIGO project - Proving the the existence of gravitational waves
   github: https://github.com/UCB-stat-159-f25/hw3-brianfdo
-  binder: https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-brianfdo/main?labpath=LOSC_Event_tutorial.ipynb
-  toc:
-    - file: README.md
-    - file: LOSC_Event_tutorial.ipynb
+  jupyter:
+    binder:
+      repo: UCB-stat-159-f25/hw3-brianfdo
+      provider: github
+      url: https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-brianfdo/main?labpath=LOSC_Event_tutorial.ipynb
+      ref: main
+  
 
 site:
   title: LIGO Gravitational Wave Analysis
-  template: book-theme
+  binder: https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-brianfdo/main?labpath=LOSC_Event_tutorial.ipynb
+  toc:
+  - file: README.md
+  - file: LOSC_Event_tutorial.ipynb
+  actions:
+    - title: Launch Binder
+      url: https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-brianfdo/main?labpath=LOSC_Event_tutorial.ipynb
