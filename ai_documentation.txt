@@ -1,1 +1,2 @@
 I used LLMs to help me write tests for testing the utils functions. It gave me the basics for setting up the variables so that I can test all three functions using a dummy test signal at a predefined frequency. I also used LLMs to figure out why my html file was not rendering properly but alas I could not solve this issue.
+Update, I solved the issue with configuring the Binder tab button by looking at the code repository from the course website but could not figure out how to assign binder button to the notebook webpage.
