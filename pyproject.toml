@@ -33,9 +33,9 @@ classifiers = [
 keywords = ["tools", "ligo"]
 dynamic = ["version"]
 
-# [project.urls]
-# Homepage = "https://github.com/fperez/mytoy"
-# Issues = "https://github.com/fperez/mytoy/issues"
+[project.urls]
+Homepage = "https://github.com/UCB-stat-159-f25/hw3-brianfdo"
+Issues = "https://github.com/UCB-stat-159-f25/hw3-brianfdo/issues"
 
 [tool.setuptools]
 packages = ["ligotools"]
